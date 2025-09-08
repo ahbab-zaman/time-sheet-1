@@ -1,7 +1,7 @@
 import axios from "axios";
 const FALLBACK_API_BASE_URL =
   process.env.NODE_ENV === "production"
-    ? "https://timeserver.airepro.in"
+    ? "https://time-sheet-2.onrender.com"
     : "http://localhost:4001";
 
 const axiosInstance = axios.create({
